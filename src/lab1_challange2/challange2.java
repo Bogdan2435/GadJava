@@ -2,22 +2,6 @@ package lab1_challange2;
 
 public class challange2 {
 
-    public static String compute2(int number){
-        String s = "";int[] digits = Integer.toString(number).chars().map(c -> c-'0').toArray();
-
-        for(int i : digits){
-            if(i != 0){
-                String aux;
-                aux = Integer.toString(i);
-                s = s + i;
-            }
-
-            else
-                s = s + "*";
-        }
-        return s;
-    }
-
     public static String compute(int number){
         String s = "";
 
@@ -46,6 +30,22 @@ public class challange2 {
         if(s == null || s.length() == 0) // verific daca numarul se divide cu 3,5 sau 7 / contine 3,5 sau 7
             s = s + number;
 
+        return s;
+    }
+
+    public static String compute2(int number){
+        String s = "";int[] digits = Integer.toString(number).chars().map(c -> c-'0').toArray();
+
+        for(int i : digits){
+            if(i != 0){
+                String aux;
+                aux = Integer.toString(i);
+                s = s + i;
+            }
+
+            else
+                s = s + "*";
+        }
         return s;
     }
 }

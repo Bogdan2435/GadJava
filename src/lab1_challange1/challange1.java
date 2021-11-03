@@ -3,7 +3,7 @@ package lab1_challange1;
 public class challange1 {
 
     public static void Challange1(int number){
-        for(int i = 1; i <= 100; i++){
+        for(int i = 1; i <= number; i++){
             if((i % 3 == 0) && (i % 5 == 0))
                 System.out.print("FizzBuzz, ");
             else if (i % 3 == 0)
