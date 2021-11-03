@@ -1,4 +1,4 @@
-package lab2_challange;
+package lab1_challange2;
 
 import java.util.Scanner;
 
