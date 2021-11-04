@@ -1,4 +1,4 @@
-package lab1_challange1;
+package lab1.challange1;
 
 public class main {
     public static void main(String[] args) {

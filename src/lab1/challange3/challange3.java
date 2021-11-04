@@ -1,4 +1,4 @@
-package lab1_challange3;
+package lab1.challange3;
 
 public class challange3 {
     public static int pair_of_2(int[] numbers){

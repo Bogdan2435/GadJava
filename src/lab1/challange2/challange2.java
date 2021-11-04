@@ -1,4 +1,4 @@
-package lab1_challange2;
+package lab1.challange2;
 
 public class challange2 {
 

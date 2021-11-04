@@ -1,4 +1,4 @@
-package lab1_challange3;
+package lab1.challange3;
 
 // 3, 2, -3, -2, 3, 0 => 2
 // 5, 9, -5, 7, 5 => 1
