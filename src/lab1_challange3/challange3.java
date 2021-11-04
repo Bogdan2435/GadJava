@@ -5,14 +5,16 @@ public class challange3 {
         int c = 0; // variabila c este un contor cu ajutorul careia voi numara nr de perechi valide
         int n;
         n = numbers.length;
-        for(int i = 0; i < n; i++){
-            for(int j = i; j <= n; j++){
-                if(i + j == 0){
+        for(int i = 0; i < n - 1; i++){
+            for(int j = i + 1; j < n; j++){
+                if(numbers[i] + numbers[j] == 0){
                     c += 1;
-                    for(int k = j; k < --n; k++)
+                    for(int k = j; k < n - 1; k++)
                         numbers[k] = numbers[k + 1];
-                    for(int k = i; k < --n; k++)
+                    n = n - 1;
+                    for(int k = i; k < n - 1; k++)
                         numbers[k] = numbers[k + 1];
+                    n = n - 1;
                     i = 0;
                     j = 0;
                 }
