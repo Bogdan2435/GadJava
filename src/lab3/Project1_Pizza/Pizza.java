@@ -1,4 +1,6 @@
+/*
 package lab3.Project1_Pizza;
+
 
 public class Pizza {
     private boolean onion;
@@ -75,5 +77,5 @@ public class Pizza {
             return toReturn;
         }
     }
-
 }
+*/

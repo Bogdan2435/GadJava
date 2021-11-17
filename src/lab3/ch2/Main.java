@@ -8,7 +8,7 @@ public class Main {
         Integer[] copy01OfArr = Arrays.copyOf(arr, arr.length);
         Integer[] copy02OfArr = Arrays.copyOf(arr, arr.length);
 
-        displaySorted(new BubleSort(), copy01OfArr);
-        displaySorted(new MergeSort(), copy02OfArr);
+        //displaySorted(new BubleSort(), copy01OfArr);
+        //displaySorted(new MergeSort(), copy02OfArr);
     }
 }

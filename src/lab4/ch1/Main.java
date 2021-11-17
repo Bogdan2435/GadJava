@@ -17,7 +17,8 @@ public class Main {
 
     public static void main(String[] args) {
         PhoneBook phoneBook = new PhoneBook("./src/lab4/ch1/in.txt");
-        System.out.println(phoneBook.findContact("Abbeey"));
-        storeContactToFile("./src/lab4/io/foundContacts.txt", phoneBook.findContact("Abbey"));
+        System.out.println(phoneBook);
+        System.out.println(phoneBook.findContact("Abbey"));
+        storeContactToFile("./src/lab4/ch1/foundContacts.txt", phoneBook.findContact("Abbey"));
     }
 }
