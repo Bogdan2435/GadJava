@@ -1,6 +1,6 @@
 package lab2.ch2;
 
-import jdk.swing.interop.SwingInterOpUtils;
+// import jdk.swing.interop.SwingInterOpUtils;
 
 public class Main {
 
