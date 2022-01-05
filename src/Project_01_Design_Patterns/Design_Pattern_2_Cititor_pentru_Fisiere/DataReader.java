@@ -1,4 +1,4 @@
-package Project_01_Design_Patterns.Design_Pattern_2_Cititor_Contabilitate;
+package Project_01_Design_Patterns.Design_Pattern_2_Cititor_pentru_Fisiere;
 
 public abstract class DataReader {
     private DataReader next;
