@@ -1,4 +1,4 @@
-# DESIGN PATTERN 2, Cititor pentru contabilitate
+# DESIGN PATTERN 2, Cititor pentru fisiere
 
 Primul design pattern ales de mine este unul de tip Chain of Resonsibility cu ajutorul caruia voi putea verifica daca pot citi date din anumite fisiere. <br/>
 Modul in care functioneaza acest program este: el verifica cu ajutorul extensilor pe care il au fisierele daca acesta poate citi date sau nu din aceste fisiere cu ajutorul programelor deja instalate. El trece prin fiecare program instalat si vede daca acesta stie sa deschida respectivul format de extensie, daca nu stie sa il foloseasca, acesta trece la urmatorul program. Atunci cand acesta nu gaseste un program care sa poata citi date din respectivul fisier, acesta arunca o exceptie in acest sens. <br/>
