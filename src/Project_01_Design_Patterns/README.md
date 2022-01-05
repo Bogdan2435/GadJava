@@ -5,4 +5,4 @@
 
 ## **Continutul acestui proiect**
  - [x] Design Pattern 1, Monitorizara preturilor unor actiuni
- - [ ] Design Pattern 2,
+ - [x] Design Pattern 2, Cititor pentru fisiere
